@@ -13,4 +13,4 @@ on f.Friend_ID = p2.ID)a
 Where FriendSalary > StudentSalary
 ORDER BY FriendSalary
 
-/*newly definitely variable cannot be in the same query as the where statement. In this case "FriendSalary" (StudentSalary can be used here)
+/*newly defined variable cannot be in the same query as the where statement. In this case "FriendSalary" (StudentSalary can be used here)
